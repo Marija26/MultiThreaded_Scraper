@@ -29,6 +29,7 @@ public class My_Crawler extends Thread{
                 System.out.println("Error: "+currentUrl);
             }
         }
+        System.out.println("total " + data.visit_size());
     }
 
     public void linksOnThePage(Elements el) {
