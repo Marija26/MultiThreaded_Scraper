@@ -14,7 +14,7 @@ public class DataLinks {
     }
 
     public void addURL(String url) {
-        unvisited.offer(url);
+        unvisited.add(url);
     }
 
     public String getURL() {
